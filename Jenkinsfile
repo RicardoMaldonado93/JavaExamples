@@ -1,13 +1,8 @@
 pipeline {
     agent any
-    stages{
+    stages {
         stage('Inicialization'){
-            steps{
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                '''
-            }
+            steps{}
         }
     }
     stages {
