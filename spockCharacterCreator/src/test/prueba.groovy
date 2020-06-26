@@ -1,8 +1,9 @@
-package test.groovy
+package test
 
+import main.com.model.comicCharacter
 import org.junit.experimental.categories.Category
+
 import spock.lang.Specification
-import test.resource.comicCharacter
 
 @Category(comicCharacter.class)
 class prueba extends Specification {
