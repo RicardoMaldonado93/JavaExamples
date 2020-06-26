@@ -1,7 +1,7 @@
-package main.com.interfaces;
+package main.java.interfaces;
 
-import main.resources.com.enums.EUniverse
-import main.resources.com.model.comicCharacter
+import main.java.com.enums.EUniverse
+import main.java.com.model.comicCharacter
 
 interface ICharacterController {
 	

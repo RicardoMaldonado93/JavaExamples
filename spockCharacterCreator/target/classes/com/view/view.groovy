@@ -1,10 +1,10 @@
 package main.resources.com.view
 
 
-import main.com.interfaces.ICharacterController
-import main.resource.com.controller.characterCreatorController
-import main.resources.com.enums.EUniverse
-import main.resources.com.model.comicCharacter
+import main.java.com.controller.characterCreatorController
+import main.java.com.enums.EUniverse
+import main.java.com.model.comicCharacter
+import main.java.interfaces.ICharacterController
 
 class view {
 	

@@ -1,8 +1,8 @@
-package main.resource.com.controller
+package main.java.com.controller
 
-import main.com.interfaces.ICharacterController
-import main.resources.com.enums.EUniverse
-import main.resources.com.model.comicCharacter
+import main.java.com.enums.EUniverse
+import main.java.com.model.comicCharacter
+import main.java.interfaces.ICharacterController
 
 @Singleton(strict = false)
 class characterCreatorController implements ICharacterController {

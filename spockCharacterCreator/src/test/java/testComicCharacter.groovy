@@ -1,7 +1,7 @@
-package test.resources
+package test.java
 
-import main.resources.com.enums.EUniverse
-import main.resources.com.model.comicCharacter
+import main.java.com.enums.EUniverse
+import main.java.com.model.comicCharacter
 
 import org.junit.experimental.categories.Category
 
