@@ -1,4 +1,4 @@
-package test.groovy
+package test.resources
 
 import main.com.enums.EUniverse
 import main.com.model.comicCharacter
