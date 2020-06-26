@@ -1,7 +1,8 @@
 package test.resources
 
-import main.com.enums.EUniverse
-import main.com.model.comicCharacter
+import main.resources.com.enums.EUniverse
+import main.resources.com.model.comicCharacter
+
 import org.junit.experimental.categories.Category
 
 import spock.lang.Specification

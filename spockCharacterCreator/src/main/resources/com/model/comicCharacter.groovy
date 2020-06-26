@@ -1,6 +1,6 @@
-package main.com.model;
+package main.resources.com.model;
 
-import main.com.enums.EUniverse
+import main.resources.com.enums.EUniverse
 
 class comicCharacter {
 	private String _name

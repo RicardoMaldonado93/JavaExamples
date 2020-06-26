@@ -1,10 +1,10 @@
-package main.com.view
+package main.resources.com.view
 
 
-import main.com.controller.characterCreatorController
-import main.com.enums.EUniverse
 import main.com.interfaces.ICharacterController
-import main.com.model.comicCharacter
+import main.resource.com.controller.characterCreatorController
+import main.resources.com.enums.EUniverse
+import main.resources.com.model.comicCharacter
 
 class view {
 	

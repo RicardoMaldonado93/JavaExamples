@@ -1,7 +1,7 @@
 package main.com.interfaces;
 
-import main.com.enums.EUniverse
-import main.com.model.comicCharacter;
+import main.resources.com.enums.EUniverse
+import main.resources.com.model.comicCharacter
 
 interface ICharacterController {
 	

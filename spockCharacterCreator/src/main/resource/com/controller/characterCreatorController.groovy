@@ -1,8 +1,8 @@
-package main.com.controller
+package main.resource.com.controller
 
-import main.com.enums.EUniverse
 import main.com.interfaces.ICharacterController
-import main.com.model.comicCharacter
+import main.resources.com.enums.EUniverse
+import main.resources.com.model.comicCharacter
 
 @Singleton(strict = false)
 class characterCreatorController implements ICharacterController {
