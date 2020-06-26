@@ -1,4 +1,4 @@
-package main.resources.interfaces;
+package main.java.interfaces;
 
 import main.java.com.enums.EUniverse
 import main.java.com.model.comicCharacter
