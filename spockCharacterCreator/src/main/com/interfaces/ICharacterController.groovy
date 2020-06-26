@@ -9,7 +9,7 @@ interface ICharacterController {
 	void deleteCharacter( String name )
 	Object findCharacter( String name )
 	void updateCharacter( comicCharacter character )
-	void seeCharactersByUniverse( EUniverse universe )
-	void seeAllCharacters()
+	Integer seeCharactersByUniverse( EUniverse universe )
+	Integer seeAllCharacters()
 	
 }

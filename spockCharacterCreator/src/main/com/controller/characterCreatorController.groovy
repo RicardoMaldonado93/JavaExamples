@@ -52,19 +52,13 @@ class characterCreatorController implements ICharacterController {
 	}
 
 	@Override
-	public void seeCharactersByUniverse(EUniverse universe) {
-		def separator = { a,b -> a*b }
-		println separator("=",80)
-		this._charactersCreated.each{ it -> if(it._universe == universe) { println it}}	
-		println separator("=",80)
+	public Integer seeCharactersByUniverse(EUniverse universe) {
+		return this._charactersCreated.findAll{ it -> it._universe == universe }.each { println it }.size()
 	}
 
 	@Override
-	public void seeAllCharacters() {
-		def separator = { a,b -> a*b }
-		println separator("=",80)
-		this._charactersCreated.each { it -> println it }
-		println separator("=",80)
+	public Integer seeAllCharacters() {
+		return this._charactersCreated.each { println it }.size()
 	}
 	
 
